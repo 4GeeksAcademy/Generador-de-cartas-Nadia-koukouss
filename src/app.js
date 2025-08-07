@@ -36,15 +36,15 @@ window.onload = function () {
 
     const div1 = document.createElement("div");
     div1.classList.add("div1");
-    div1.innerHTML = `<span>${number} ${symbols[palo]}</span>`;
+    div1.innerHTML = `<span>${symbols[palo]}</span>`;
 
     const div2 = document.createElement("div");
     div2.classList.add("div2");
-    div2.innerHTML = `<span>${symbols[palo]}</span>`;
+    div2.innerHTML = `<span>${number}</span>`;
 
     const div3 = document.createElement("div");
     div3.classList.add("div3");
-    div3.innerHTML = `<span>${number} ${symbols[palo]}</span>`;
+    div3.innerHTML = `<span>${symbols[palo]}</span>`;
 
     card.appendChild(div1);
     card.appendChild(div2);
