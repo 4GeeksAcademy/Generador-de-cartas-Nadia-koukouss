@@ -40,7 +40,7 @@ window.onload = function () {
 
     const div2 = document.createElement("div");
     div2.classList.add("div2");
-    div2.innerHTML = `<span>${number}</span>`;
+    div2.innerHTML = `<span class="number">${number}</span>`;
 
     const div3 = document.createElement("div");
     div3.classList.add("div3");
